@@ -177,7 +177,7 @@ export const Footer: React.FC = () => {
           <p className="text-xs tracking-wide text-gray-400">
             Developed by{' '}
             <a
-              href="https://www.facebook.com/shariar5474"
+              href="https://www.facebook.com/shariarislamfm"
               target="_blank"
               rel="noopener noreferrer"
               title="Visit Shariar Islam Sohel's Facebook Profile"
