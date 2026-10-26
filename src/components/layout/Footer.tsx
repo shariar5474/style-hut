@@ -122,7 +122,7 @@ export const Footer: React.FC = () => {
           {/* Column 4: Boutique Address & Contact */}
           <div>
             <h4 className="font-serif text-base font-semibold text-white tracking-wide uppercase mb-4 text-brand-gold">
-              Dhaka Boutique
+              Boutique Address
             </h4>
             <ul className="space-y-3 text-sm text-gray-300">
               <li className="flex items-start gap-2.5">
@@ -147,7 +147,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Strip: Payment Badges & Copyright */}
-        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-6 border-b border-white/10 pb-6">
           <p className="text-xs text-gray-400 text-center md:text-left flex items-center gap-1">
             <span>© {new Date().getFullYear()} {settings.store_name}. Crafted with</span>
             <Heart className="w-3.5 h-3.5 text-brand-rose inline fill-brand-rose" />
@@ -170,6 +170,23 @@ export const Footer: React.FC = () => {
               Cash on Delivery
             </span>
           </div>
+        </div>
+
+        {/* Developer Credit - Sobar Niche */}
+        <div className="pt-6 text-center">
+          <p className="text-xs tracking-wide text-gray-400">
+            Developed by{' '}
+            <a
+              href="https://www.facebook.com/shariar5474"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Visit Shariar Islam Sohel's Facebook Profile"
+              className="font-bold text-brand-pink hover:text-brand-gold transition-colors underline underline-offset-4 decoration-brand-pink/50 hover:decoration-brand-gold inline-flex items-center gap-1"
+            >
+              <span>SHARIAR ISLAM SOHEL</span>
+              <ArrowUpRight className="w-3.5 h-3.5 text-brand-gold" />
+            </a>
+          </p>
         </div>
 
       </div>

@@ -71,7 +71,7 @@ export const Settings: React.FC = () => {
           </div>
 
           <div>
-            <label className="block font-bold text-brand-dark mb-1">Boutique Address (Dhaka)</label>
+            <label className="block font-bold text-brand-dark mb-1">Boutique Address</label>
             <input
               type="text"
               value={formData.address}

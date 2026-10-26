@@ -40,7 +40,7 @@ export const initialStoreSettings: StoreSettings = {
   email: 'care@stylehutbd.com',
   phone: '+880 1711-987654',
   whatsapp: '+880 1711-987654',
-  address: 'House 42, Road 11, Block D, Banani, Dhaka-1213, Bangladesh',
+  address: 'Johora Tower, Chowmuhuni, Chittagong, Bangladesh',
   delivery_inside_dhaka: 70,
   delivery_outside_dhaka: 130,
   free_delivery_threshold: 3000,
